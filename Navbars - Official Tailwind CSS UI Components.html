@@ -77,86 +77,48 @@
             </svg>
           </span>
         </button>
-        <div x-show="open" class="absolute top-full right-0 w-60 mt-3 -mr-0.5 sm:-mr-3.5 bg-white rounded-lg shadow-md ring-1 ring-gray-900 ring-opacity-5 font-normal text-sm text-gray-900 divide-y divide-gray-100" style="display: none;">
-          <p class="py-3 px-3.5">
-            <span class="block mb-0.5 text-xs text-gray-500">Signed in as</span>
-            <span class="font-semibold">shoaib@actonate.com</span>
-          </p>
-          <div class="py-1.5 px-3.5">
-            <a href="https://tailwindui.com/components" class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <rect x="2.75" y="2.75" width="5.5" height="5.5" rx="1"></rect>
-                <rect x="2.75" y="11.75" width="5.5" height="5.5" rx="1"></rect>
-                <rect x="11.75" y="11.75" width="5.5" height="5.5" rx="2.75"></rect>
-                <path d="M13.616 3.305a1 1 0 011.79.004l1.731 3.498a1 1 0 01-.896 1.443H12.76a1 1 0 01-.894-1.448l1.751-3.497z"></path>
-              </svg>
-              Components
-            </a>
-            <a href="https://tailwindui.com/documentation" class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <path d="M5.75 17.25h8.5a2 2 0 002-2V7L12 2.75H5.75a2 2 0 00-2 2v10.5a2 2 0 002 2z"></path>
-                <path d="M11.75 3v4.25H16M6.75 10.75h6.5M6.75 13.75h6.5"></path>
-              </svg>
-              Documentation
-            </a>
-            <a href="https://tailwindui.com/download-figma" class="group flex items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <path d="M6 13.25a3.25 3.25 0 01-1.1-6.31c.473-.17.865-.562.996-1.047a4.252 4.252 0 018.209 0c.13.485.522.878.995 1.048A3.251 3.251 0 0114 13.25M10 11.75v5.5M7.75 14.75l2.25 2.5 2.25-2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-              Download Figma Assets
-            </a>
-            <a href="https://tailwindui.com/changelog" class="group flex items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <rect x="7.75" y="2.75" width="4.5" height="4.5" rx="2.25"></rect>
-                <rect x="7.75" y="12.75" width="4.5" height="4.5" rx="2.25"></rect>
-                <path d="M10 7.5v5"></path>
-              </svg>
-              Changelog
-            </a>
-            <a href="https://tailwindui.com/support" class="group flex items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <rect x="2.75" y="2.75" width="14.5" height="14.5" rx="7.25"></rect>
-                <rect x="6.75" y="6.75" width="6.5" height="6.5" rx="3.25"></rect>
-                <path d="M5 15l2.5-2.5M15 5l-2.5 2.5M15 15l-2.5-2.5M5 5l2.5 2.5"></path>
-              </svg>
-              Support
-            </a>
-            <a href="https://tailwindui.com/license" class="group flex items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <circle cx="10" cy="8" r="5.25"></circle>
-                <path d="M13 12.5l1.25 4.75-4.25-1.5-4.25 1.5L7 12.5"></path>
-              </svg>
-              License
-            </a>
-          </div>
-                      <div class="py-1.5 px-3.5">
-              <a href="https://tailwindui.com/v1/components" class="group flex items-center py-1.5 hover:text-teal-600">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                  <path d="M2.75 10C2.75 7.1 5.1 4.75 8 4.75h4c2.9 0 5.25 2.35 5.25 5.25v0c0 2.9-2.35 5.25-5.25 5.25H8A5.25 5.25 0 012.75 10v0z"></path>
-                  <path d="M5.75 10A2.25 2.25 0 018 7.75v0A2.25 2.25 0 0110.25 10v0A2.25 2.25 0 018 12.25v0A2.25 2.25 0 015.75 10v0z"></path>
+        <div x-show="open"
+            class="absolute top-full right-0 w-60 mt-3 -mr-0.5 sm:-mr-3.5 bg-white rounded-lg shadow-md ring-1 ring-gray-900 ring-opacity-5 font-normal text-sm text-gray-900 divide-y divide-gray-100"
+            style="display: none;">
+            <p class="py-3 px-3.5">
+              <span class="block mb-0.5 text-xs text-gray-500">Signed in as</span>
+              <span class="font-semibold">Jack Sparrow</span>
+            </p>
+            <div class="py-1.5 px-3.5">
+              <a href="https://tailwindui.com/components"
+                class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
+                  <rect x="2.75" y="2.75" width="5.5" height="5.5" rx="1"></rect>
+                  <rect x="2.75" y="11.75" width="5.5" height="5.5" rx="1"></rect>
+                  <rect x="11.75" y="11.75" width="5.5" height="5.5" rx="2.75"></rect>
+                  <path
+                    d="M13.616 3.305a1 1 0 011.79.004l1.731 3.498a1 1 0 01-.896 1.443H12.76a1 1 0 01-.894-1.448l1.751-3.497z">
+                  </path>
                 </svg>
-                Switch to v1
+                Components
+              </a>
+              <a href="https://tailwindui.com/documentation"
+                class="group flex sm:hidden items-center py-1.5 hover:text-teal-600">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
+                  <path d="M5.75 17.25h8.5a2 2 0 002-2V7L12 2.75H5.75a2 2 0 00-2 2v10.5a2 2 0 002 2z"></path>
+                  <path d="M11.75 3v4.25H16M6.75 10.75h6.5M6.75 13.75h6.5"></path>
+                </svg>
+                Documentation
+              </a>
+              <a href="https://tailwindui.com/download-figma"
+                class="group flex items-center py-1.5 hover:text-teal-600">
+                <svg width="20" height="20" fill="none" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
+                  <path
+                    d="M6 13.25a3.25 3.25 0 01-1.1-6.31c.473-.17.865-.562.996-1.047a4.252 4.252 0 018.209 0c.13.485.522.878.995 1.048A3.251 3.251 0 0114 13.25M10 11.75v5.5M7.75 14.75l2.25 2.5 2.25-2.5"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                Download Figma Assets
               </a>
             </div>
-                    <div class="py-1.5 px-3.5">
-            <a href="https://tailwindui.com/account-settings" class="group flex items-center py-1.5 hover:text-teal-600">
-              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                <rect x="7.75" y="5.75" width="4.5" height="4.5" rx="2.25"></rect>
-                <rect x="2.75" y="2.75" width="14.5" height="14.5" rx="7.25"></rect>
-                <path d="M14.618 15.5A5.249 5.249 0 0010 12.75a5.249 5.249 0 00-4.618 2.75"></path>
-              </svg>
-              Account Settings
-            </a>
-            <form method="POST" action="https://tailwindui.com/logout">
-              <input type="hidden" name="_token" value="DJSFshkIcRB2ULUrjHhIqtMjrLfrkcKo27YOvkco">              <button type="submit" class="group flex w-full items-center py-1.5 text-gray-900 hover:text-teal-600">
-                <svg width="20" height="20" fill="none" class="flex-none mr-3 text-gray-400 group-hover:text-teal-600">
-                  <path d="M10.25 3.75H9A6.25 6.25 0 002.75 10v0A6.25 6.25 0 009 16.25h1.25M10.75 10h6.5M14.75 12.25l2.5-2.25-2.5-2.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-                Sign out
-              </button>
-            </form>
           </div>
-        </div>
+      </div>
       </div>
     </div>
           </div>
